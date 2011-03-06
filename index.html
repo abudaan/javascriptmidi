@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>midi bridge</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.5.min.js"></script>
+        <script type="text/javascript" src="js/jquery.client.js"></script>
+        <script type="text/javascript" src="js/abumarkub/midi/MidiBridge.js"></script>
+        <script type="text/javascript" src="js/abumarkub/midi/getNoteName.js"></script>
+        <script type="text/javascript" src="js/abumarkub/midi/getStatusCode.js"></script>
+        <script type="text/javascript" src="js/abumarkub/midi/MidiMessage.js"></script>
+        <script type="text/javascript" src="js/abumarkub/midi/keyboard/Regular.js"></script>
+        <script type="text/javascript" src="js/SampleApp.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet" media="screen" href="css/reset.css"/>
+        <link rel="stylesheet" media="screen" href="css/midibridge.css"/>
+    </head>
+    <body>
+        <div id="container">
+            <div id="midi-ports">
+                <select id="midi-in">
+                    <option value="-1">---</option>
+                </select>
+                <select id="midi-out">
+                    <option value="-1">---</option>
+                </select>
+            </div>
+            <div id="midi-log"></div>
+            <div id="refresh-devices" class="button">refresh devices</div>
+            <div id="clear-log" class="button">clear log</div>
+            <div id="java"></div>
+        </div>
+    </body>
+</html>

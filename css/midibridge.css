@@ -1,0 +1,84 @@
+#container
+{
+    width:800px;
+    position: relative;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.button
+{
+    margin: 10px 0px 0px 10px;
+    border:#111111 solid 1px;
+    width:130px;
+    height:16px;
+    padding: 5px 0px 0px 5px;
+    background-color: white;
+    cursor:pointer;
+    font-size: 12px;
+    font-family: Verdana,Arial,_sans;
+    display: inline-block;
+}
+
+
+.button:hover
+{
+    border:#0000ff solid 1px;
+    font-size: 12px;
+    color: #0000ff;
+    font-family: Verdana,Arial,_sans;
+}
+
+#midi-in, #midi-out
+{
+    margin: 10px 0px 0px 10px;
+    width:300px;
+    font-family: Verdana,Helvetica,Arial;
+    font-size: 12px;
+}
+/*
+option[selected]
+{
+    background-color:#333333;
+    color:#ffffff;
+}
+*/
+#midi-log
+{
+    padding: 3px;
+    margin: 10px 0px 0px 10px;
+    width: 613px;
+    height: 200px;
+    overflow: auto;
+    background-color: #000;
+    color: #ffffff;
+    font-family: monospace;
+    font-size:12px;
+}
+
+.midi-log-cmd
+{
+    width: 55px;
+    color: #00ff00;
+    display: inline-block;
+}
+
+#java
+{
+    font-family: Verdana,Helvetica,Arial;
+    padding: 10px 0px 10px 10px;
+    font-size: 12px;
+    color:red;
+}
+
+#java a
+{
+    text-decoration: none;
+    color:#333333;
+}
+
+#java a:hover
+{
+    text-decoration: underline;
+    color:#333333;
+}
