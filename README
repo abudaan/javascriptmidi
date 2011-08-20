@@ -1,14 +1,8 @@
-This code is just a proof of concept. If you want to use the midibridge in your projects, please check this repository: https://github.com/abudaan/midibridge-js
+This code is only a proof of concept! 
 
+Please do not use this code in your projects! 
 
-This is a port of the midibridge to a Javascript only version.
+If you want add the midibridge to your projects, please check this repository: 
 
-The code is still being developed. 
+https://github.com/abudaan/midibridge-js
 
-I have chosen the sandbox pattern which is set up in main.js, in main.js an instance of SampleApp is created and its callback function provides a namespace where you can start coding your own app.
-
-There is very simple version of a regular keyboard included in the code, in the midi inputs dropdown menu you'll find the option "Regular Computer Keyboard". If you choose this option, you can play notes C4 - C5 with the keys A,S,D,F,G,H,J and K.
-
-More documentation will follow soon (i hope) but meanwhile don't hesitate to contact me for questions at abudaan[at]gmail[dot]com 
-
-IMPORTANT NOTE: this version is not yet compatible with the Actionscript version!! This means that you have to use the Applet that is provided in this repository. The Javascript version will *not* work with the Applet of the Actionscript version!
